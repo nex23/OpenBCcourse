@@ -1,0 +1,69 @@
+//Ejercicio If
+public class Main{
+
+	public static void main(String[] arg){
+		var numeroIf = 0;
+		if (numeroIf > 0) {
+      System.out.println("El número es mayor a 0");
+    }else
+    if (numeroIf < 0){
+      System.out.println(El número es menor a 0);
+    }else{
+      System.out.println(El número es 0);
+    }
+	}
+  
+  
+  //Ejercicio While
+public static void main(String[] arg){
+		var numeroWhile = 0;
+		while (numeroWhile < 3) {
+      System.out.println(numeroWhile);
+      numeroWhile++;
+    }
+	}
+  
+  
+  
+  //Ejercicio While
+public static void main(String[] arg){
+		var numeroDo = 0;
+		Do {
+      System.out.println(numeroDo);
+      numeroDo--;
+      while (numeroDo > 0)
+    }
+	}
+  
+  
+  
+    //Ejercicio For
+public static void main(String[] arg){
+		for (numeroFor = 0; numeroFor =< 3; numeroFor++) {
+      System.out.println(numeroFor);
+    }
+	}
+  
+  
+  
+      //Ejercicio Swtich
+public static void main(String[] arg){
+		var estacion = "verano";
+    
+    switch(estacion){
+      case "verano":
+      System.out.println("Es verano");
+      break;
+      case "invierno":
+      System.out.println("Es invierno");
+      break;
+      case "otoño":
+      System.out.println("Es otoño");
+      break;
+      case "primavera":
+      System.out.println("Es primavera");
+      break;
+      deafult:
+      System.out.println("No es una estacion del año");
+    }
+	}
