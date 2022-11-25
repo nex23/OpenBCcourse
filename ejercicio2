@@ -2,7 +2,7 @@
 public class Main{
 
 	public static void main(String[] arg){
-		var numeroIf = 0;
+		int numeroIf = 0;
 		if (numeroIf > 0) {
       System.out.println("El número es mayor a 0");
     }else
@@ -16,7 +16,7 @@ public class Main{
   
   //Ejercicio While
 public static void main(String[] arg){
-		var numeroWhile = 0;
+		int numeroWhile = 0;
 		while (numeroWhile < 3) {
       System.out.println(numeroWhile);
       numeroWhile++;
@@ -27,7 +27,7 @@ public static void main(String[] arg){
   
   //Ejercicio While
 public static void main(String[] arg){
-		var numeroDo = 0;
+		int numeroDo = 0;
 		Do {
       System.out.println(numeroDo);
       numeroDo--;
@@ -39,7 +39,7 @@ public static void main(String[] arg){
   
     //Ejercicio For
 public static void main(String[] arg){
-		for (numeroFor = 0; numeroFor =< 3; numeroFor++) {
+		for (int numeroFor = 0; numeroFor =< 3; numeroFor++) {
       System.out.println(numeroFor);
     }
 	}
